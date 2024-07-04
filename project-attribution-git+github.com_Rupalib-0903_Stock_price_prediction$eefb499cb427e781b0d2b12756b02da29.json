@@ -1,0 +1,58 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2024-07-04T05:54:44Z",
+    "creators": [
+      "Organization: rupalibehera08092003@gmail.com",
+      "Tool: FOSSA v0.12.0"
+    ],
+    "licenseListVersion": "3.23",
+    "documentDescribes": []
+  },
+  "name": "github.com/Rupalib-0903/Stock_price_prediction-eefb499cb427e781b0d2b12756b02da290004911",
+  "documentNamespace": "https://s3.us-east-1.amazonaws.com/blob.fossa.io/FOSSA_BOMS/git%2Bgithub.com%2FRupalib-0903%2FStock_price_prediction%24eefb499cb427e781b0d2b12756b02da290004911",
+  "dataLicense": "CC0-1.0",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-git-github.com-Rupalib-0903-Stock-price-prediction-eefb499cb427e781b0d2b12756b02da290004911",
+      "name": "Stock_price_prediction",
+      "versionInfo": "eefb499cb427e781b0d2b12756b02da290004911",
+      "filesAnalyzed": true,
+      "downloadLocation": "NOASSERTION",
+      "originator": "Organization: Git",
+      "licenseDeclared": "NONE",
+      "copyrightText": "NONE",
+      "licenseConcluded": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "749ee664e080d8b8946af7eae2f5fdd5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fa3fc5b37b1ac7871319e92c3a78ac8efe141751"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "48e879a01f76d305ff9eef6655d2eb782c9484a147efd6a4db75071753e329da"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/Rupalib-0903/Stock_price_prediction@eefb499cb427e781b0d2b12756b02da290004911"
+        }
+      ]
+    }
+  ],
+  "hasExtractedLicensingInfos": [],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-git-github.com-Rupalib-0903-Stock-price-prediction-eefb499cb427e781b0d2b12756b02da290004911"
+    }
+  ]
+}

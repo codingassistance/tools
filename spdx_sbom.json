@@ -1,0 +1,18 @@
+{
+    "Package representing the goProject": {
+        "PackageName": "goProject",
+        "SPDXID": "SPDXRef-Package-goProject",
+        "PackageVersion": "be6778a",
+        "PackageSupplier": "Organization: goProject",
+        "PackageDownloadLocation": "git+https://github.com/BhairaviSanskriti/Order-Food",
+        "FilesAnalyzed": "false",
+        "PackageChecksum": "SHA256: 821574454c87d4449f1f5ebbaa43b2ac35bfe9e169eff823cfef54dd93244b4d",
+        "PackageHomePage": "https://goProject",
+        "PackageLicenseConcluded": "NOASSERTION",
+        "PackageLicenseDeclared": "NOASSERTION",
+        "PackageCopyrightText": "NOASSERTION",
+        "PackageLicenseComments": "NOASSERTION",
+        "PackageComment": "NOASSERTION",
+        "Relationship": "SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-goProject"
+    }
+}
