@@ -1,0 +1,26 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: goProject
+DocumentNamespace: http://spdx.org/spdxpackages/goProject-4f1ec776-c78d-4f04-925e-7fe980f752a4
+Creator: Tool: spdx-sbom-generator-v0.0.10
+Created: 2024-07-05T04:18:11Z
+
+##### Package representing the goProject
+
+PackageName: goProject
+SPDXID: SPDXRef-Package-goProject
+PackageVersion: be6778a
+PackageSupplier: Organization: goProject
+PackageDownloadLocation: git+https://github.com/BhairaviSanskriti/Order-Food.git
+FilesAnalyzed: false
+PackageChecksum: SHA256: da71decabb7ae6a1dc3d3540119a23caa3dfecc21ff0e3a44da355bf6adb2a03
+PackageHomePage: https://goProject
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-goProject 
+

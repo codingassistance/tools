@@ -1,0 +1,1292 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:0e1e0227-3367-4203-bd9c-4894b0714319",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-07-05T09:36:22+05:30",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.0.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "06737436a36b6b98",
+      "type": "file",
+      "name": "Order-Food"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:golang/github.com/dgryski/go-minhash@v0.0.0-20170608043002-7fe510aff544?package-id=f235105d189336dc",
+      "type": "library",
+      "name": "github.com/dgryski/go-minhash",
+      "version": "v0.0.0-20170608043002-7fe510aff544",
+      "cpe": "cpe:2.3:a:dgryski:go-minhash:v0.0.0-20170608043002-7fe510aff544:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/dgryski/go-minhash@v0.0.0-20170608043002-7fe510aff544",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dgryski:go_minhash:v0.0.0-20170608043002-7fe510aff544:*:*:*:*:*:*:*"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:54Y/2GF52MSJ4n63HWvNDFRtztgm6tq2UrOX61sjGKc="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/ekzhu/minhash-lsh@v0.0.0-20171225071031-5c06ee8586a1?package-id=d5879d3235e12b2a",
+      "type": "library",
+      "name": "github.com/ekzhu/minhash-lsh",
+      "version": "v0.0.0-20171225071031-5c06ee8586a1",
+      "cpe": "cpe:2.3:a:ekzhu:minhash-lsh:v0.0.0-20171225071031-5c06ee8586a1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/ekzhu/minhash-lsh@v0.0.0-20171225071031-5c06ee8586a1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ekzhu:minhash_lsh:v0.0.0-20171225071031-5c06ee8586a1:*:*:*:*:*:*:*"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:/7G7q8SDJdrah5jDYqZI8pGFjSqiCzfSEO+NgqKCYX0="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/emirpasic/gods@v1.12.0?package-id=620854f412d13680",
+      "type": "library",
+      "name": "github.com/emirpasic/gods",
+      "version": "v1.12.0",
+      "cpe": "cpe:2.3:a:emirpasic:gods:v1.12.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/emirpasic/gods@v1.12.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:QAUIPSaCu4G+POclxeqb3F+WPpdKqFGlw36+yOzGlrg="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/go-enry/go-license-detector@v4.2.0?package-id=281d2e026f79d598#v4",
+      "type": "library",
+      "name": "github.com/go-enry/go-license-detector/v4",
+      "version": "v4.2.0",
+      "cpe": "cpe:2.3:a:go-enry:go-license-detector\\/v4:v4.2.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/go-enry/go-license-detector@v4.2.0#v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go-enry:go_license_detector\\/v4:v4.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go_enry:go-license-detector\\/v4:v4.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go_enry:go_license_detector\\/v4:v4.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go:go-license-detector\\/v4:v4.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go:go_license_detector\\/v4:v4.2.0:*:*:*:*:*:*:*"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:wLqbEug2maFahLJn9ZAUxlKBhbjeN29ICalW9yl/8FM="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/go-git/gcfg@v1.5.0?package-id=006ca919669e745e",
+      "type": "library",
+      "name": "github.com/go-git/gcfg",
+      "version": "v1.5.0",
+      "cpe": "cpe:2.3:a:go-git:gcfg:v1.5.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/go-git/gcfg@v1.5.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go_git:gcfg:v1.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go:gcfg:v1.5.0:*:*:*:*:*:*:*"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:Q5ViNfGF8zFgyJWPqYwA7qGFoMTEiBmdlkcfRmpIMa4="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/go-git/go-billy@v5.0.0?package-id=5f54f6662b30641b#v5",
+      "type": "library",
+      "name": "github.com/go-git/go-billy/v5",
+      "version": "v5.0.0",
+      "cpe": "cpe:2.3:a:go-git:go-billy\\/v5:v5.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/go-git/go-billy@v5.0.0#v5",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go-git:go_billy\\/v5:v5.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go_git:go-billy\\/v5:v5.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go_git:go_billy\\/v5:v5.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go:go-billy\\/v5:v5.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go:go_billy\\/v5:v5.0.0:*:*:*:*:*:*:*"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:7NQHvd9FVid8VL4qVUMm8XifBK+2xCoZ2lSk0agRrHM="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/go-git/go-git@v5.1.0?package-id=a4e5d79c27e1958e#v5",
+      "type": "library",
+      "name": "github.com/go-git/go-git/v5",
+      "version": "v5.1.0",
+      "cpe": "cpe:2.3:a:go-git:go-git\\/v5:v5.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/go-git/go-git@v5.1.0#v5",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go-git:go_git\\/v5:v5.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go_git:go-git\\/v5:v5.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go_git:go_git\\/v5:v5.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go:go-git\\/v5:v5.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go:go_git\\/v5:v5.1.0:*:*:*:*:*:*:*"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:HxJn9g/E7eYvKW3Fm7Jt4ee8LXfPOm/H1cdDu8vEssk="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/google/uuid@v1.2.0?package-id=34d87e640a660224",
+      "type": "library",
+      "name": "github.com/google/uuid",
+      "version": "v1.2.0",
+      "cpe": "cpe:2.3:a:google:uuid:v1.2.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/google/uuid@v1.2.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:qJYtXnJRWmpe7m/3XlyhrsLrEURqHRM2kxzoxXqyUDs="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/gorilla/mux@v1.8.0?package-id=262a6f49c345087c",
+      "type": "library",
+      "name": "github.com/gorilla/mux",
+      "version": "v1.8.0",
+      "cpe": "cpe:2.3:a:gorilla:mux:v1.8.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/gorilla/mux@v1.8.0",
+      "properties": [
+        { "name": "syft:package:foundBy", "value": "go-module-file-cataloger" },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        { "name": "syft:package:metadataType", "value": "go-module-entry" },
+        { "name": "syft:location:0:path", "value": "/go.mod" },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/hhatto/gorst@v0.0.0-20181029133204-ca9f730cac5b?package-id=c70b3f8db8382927",
+      "type": "library",
+      "name": "github.com/hhatto/gorst",
+      "version": "v0.0.0-20181029133204-ca9f730cac5b",
+      "cpe": "cpe:2.3:a:hhatto:gorst:v0.0.0-20181029133204-ca9f730cac5b:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/hhatto/gorst@v0.0.0-20181029133204-ca9f730cac5b",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:Jdu2tbAxkRouSILp2EbposIb8h4gO+2QuZEn3d9sKAc="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/imdario/mergo@v0.3.9?package-id=8c011446289cf572",
+      "type": "library",
+      "name": "github.com/imdario/mergo",
+      "version": "v0.3.9",
+      "cpe": "cpe:2.3:a:imdario:mergo:v0.3.9:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/imdario/mergo@v0.3.9",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:UauaLniWCFHWd+Jp9oCEkTBj8VO/9DKg3PV3VCNMDIg="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/jbenet/go-context@v0.0.0-20150711004518-d14ea06fba99?package-id=d447fb06434976d8",
+      "type": "library",
+      "name": "github.com/jbenet/go-context",
+      "version": "v0.0.0-20150711004518-d14ea06fba99",
+      "cpe": "cpe:2.3:a:jbenet:go-context:v0.0.0-20150711004518-d14ea06fba99:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/jbenet/go-context@v0.0.0-20150711004518-d14ea06fba99",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jbenet:go_context:v0.0.0-20150711004518-d14ea06fba99:*:*:*:*:*:*:*"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:BQSFePA1RWJOlocH6Fxy8MmwDt+yVQYULKfN0RoTN8A="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/jdkato/prose@v1.1.0?package-id=b92485d836034044",
+      "type": "library",
+      "name": "github.com/jdkato/prose",
+      "version": "v1.1.0",
+      "cpe": "cpe:2.3:a:jdkato:prose:v1.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/jdkato/prose@v1.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:LpvmDGwbKGTgdCH3a8VJL56sr7p/wOFPw/R4lM4PfFg="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/kevinburke/ssh_config@v0.0.0-20190725054713-01f96b0aa0cd?package-id=5a02a9e1a3a903c2",
+      "type": "library",
+      "name": "github.com/kevinburke/ssh_config",
+      "version": "v0.0.0-20190725054713-01f96b0aa0cd",
+      "cpe": "cpe:2.3:a:kevinburke:ssh-config:v0.0.0-20190725054713-01f96b0aa0cd:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/kevinburke/ssh_config@v0.0.0-20190725054713-01f96b0aa0cd",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:kevinburke:ssh_config:v0.0.0-20190725054713-01f96b0aa0cd:*:*:*:*:*:*:*"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:Coekwdh0v2wtGp9Gmz1Ze3eVRAWJMLokvN3QjdzCHLY="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/mitchellh/go-homedir@v1.1.0?package-id=34ce0104f9648738",
+      "type": "library",
+      "name": "github.com/mitchellh/go-homedir",
+      "version": "v1.1.0",
+      "cpe": "cpe:2.3:a:mitchellh:go-homedir:v1.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/mitchellh/go-homedir@v1.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mitchellh:go_homedir:v1.1.0:*:*:*:*:*:*:*"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:lukF9ziXFxDFPkA1vsr5zpc1XuPDn/wFntq5mG+4E0Y="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/montanaflynn/stats@v0.0.0-20151014174947-eeaced052adb?package-id=d91fed62197fca1c",
+      "type": "library",
+      "name": "github.com/montanaflynn/stats",
+      "version": "v0.0.0-20151014174947-eeaced052adb",
+      "cpe": "cpe:2.3:a:montanaflynn:stats:v0.0.0-20151014174947-eeaced052adb:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/montanaflynn/stats@v0.0.0-20151014174947-eeaced052adb",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:bsjNADsjHq0gjU7KO7zwoX5k3HtFdf6TDzB3ncl5iUs="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/pkg/errors@v0.9.1?package-id=ea692f11be449967",
+      "type": "library",
+      "name": "github.com/pkg/errors",
+      "version": "v0.9.1",
+      "cpe": "cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/pkg/errors@v0.9.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/russross/blackfriday@v2.0.1?package-id=ef70a7c214258c18#v2",
+      "type": "library",
+      "name": "github.com/russross/blackfriday/v2",
+      "version": "v2.0.1",
+      "cpe": "cpe:2.3:a:russross:blackfriday\\/v2:v2.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/russross/blackfriday@v2.0.1#v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:lPqVAte+HuHNfhJ/0LC98ESWRz8afy9tM/0RK8m9o+Q="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/sergi/go-diff@v1.1.0?package-id=8a86c996523c22af",
+      "type": "library",
+      "name": "github.com/sergi/go-diff",
+      "version": "v1.1.0",
+      "cpe": "cpe:2.3:a:sergi:go-diff:v1.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/sergi/go-diff@v1.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sergi:go_diff:v1.1.0:*:*:*:*:*:*:*"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:we8PVUC3FE2uYfodKH/nBHMSetSfHDR6scGdBi+erh0="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/shogo82148/go-shuffle@v0.0.0-20170808115208-59829097ff3b?package-id=02ae862873d6521b",
+      "type": "library",
+      "name": "github.com/shogo82148/go-shuffle",
+      "version": "v0.0.0-20170808115208-59829097ff3b",
+      "cpe": "cpe:2.3:a:shogo82148:go-shuffle:v0.0.0-20170808115208-59829097ff3b:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/shogo82148/go-shuffle@v0.0.0-20170808115208-59829097ff3b",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shogo82148:go_shuffle:v0.0.0-20170808115208-59829097ff3b:*:*:*:*:*:*:*"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:VI1u+o2KZPZ5AhuPpXY0JBdpQPnkTx6Dd5XJhK/9MYE="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/shurcool/sanitized_anchor_name@v1.0.0?package-id=0865d03729cd7ea5",
+      "type": "library",
+      "name": "github.com/shurcooL/sanitized_anchor_name",
+      "version": "v1.0.0",
+      "cpe": "cpe:2.3:a:shurcooL:sanitized-anchor-name:v1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/shurcooL/sanitized_anchor_name@v1.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shurcooL:sanitized_anchor_name:v1.0.0:*:*:*:*:*:*:*"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:PdmoCO6wvbs+7yrJyMORt4/BmY5IYyJwS/kOiWx8mHo="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/sirupsen/logrus@v1.8.1?package-id=430a03d7f3ae0782",
+      "type": "library",
+      "name": "github.com/sirupsen/logrus",
+      "version": "v1.8.1",
+      "cpe": "cpe:2.3:a:sirupsen:logrus:v1.8.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/sirupsen/logrus@v1.8.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:dJKuHgqk1NNQlqoA6BTlM1Wf9DOH3NBjQyu0h9+AZZE="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/spf13/cobra@v1.1.3?package-id=681f517529653d5c",
+      "type": "library",
+      "name": "github.com/spf13/cobra",
+      "version": "v1.1.3",
+      "cpe": "cpe:2.3:a:spf13:cobra:v1.1.3:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/spf13/cobra@v1.1.3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:xghbfqPkxzxP3C/f3n5DdpAbdKLj4ZE4BWQI362l53M="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/spf13/pflag@v1.0.5?package-id=2c0d2f578cfd75ad",
+      "type": "library",
+      "name": "github.com/spf13/pflag",
+      "version": "v1.0.5",
+      "cpe": "cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/spf13/pflag@v1.0.5",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:iy+VFUOCP1a+8yFto/drg2CJ5u0yRoB7fZw3DKv/JXA="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/vifraa/gopom@v0.1.0?package-id=9bba428b329e73c0",
+      "type": "library",
+      "name": "github.com/vifraa/gopom",
+      "version": "v0.1.0",
+      "cpe": "cpe:2.3:a:vifraa:gopom:v0.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/vifraa/gopom@v0.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:v897eVxf6lflkEXzPmKbo4YhX2oS/LGjz7cqjWnSmCU="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/xanzy/ssh-agent@v0.2.1?package-id=326f578af4718053",
+      "type": "library",
+      "name": "github.com/xanzy/ssh-agent",
+      "version": "v0.2.1",
+      "cpe": "cpe:2.3:a:xanzy:ssh-agent:v0.2.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/xanzy/ssh-agent@v0.2.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:xanzy:ssh_agent:v0.2.1:*:*:*:*:*:*:*"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:TCbipTQL2JiiCprBWx9frJ2eJlCYT00NmctrHxVAr70="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/goproject@v0.0.0-20220628093626-00c67e62b377?package-id=eff3e671e31c66c7",
+      "type": "library",
+      "name": "goProject",
+      "version": "v0.0.0-20220628093626-00c67e62b377",
+      "purl": "pkg:golang/goProject@v0.0.0-20220628093626-00c67e62b377",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/goProject" },
+        { "name": "syft:metadata:architecture", "value": "amd64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.18.1" },
+        { "name": "syft:metadata:mainModule", "value": "goProject" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/crypto@v0.0.0-20200302210943-78000ba7a073?package-id=993511094aee627b",
+      "type": "library",
+      "name": "golang.org/x/crypto",
+      "version": "v0.0.0-20200302210943-78000ba7a073",
+      "cpe": "cpe:2.3:a:golang:x\\/crypto:v0.0.0-20200302210943-78000ba7a073:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/crypto@v0.0.0-20200302210943-78000ba7a073",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:xMPOj6Pz6UipU1wXLkrtqpHbR0AVFnyPEQq/wRWz9lM="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/exp@v0.0.0-20191030013958-a1ab85dbe136?package-id=f09380142cf00a77",
+      "type": "library",
+      "name": "golang.org/x/exp",
+      "version": "v0.0.0-20191030013958-a1ab85dbe136",
+      "cpe": "cpe:2.3:a:golang:x\\/exp:v0.0.0-20191030013958-a1ab85dbe136:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/exp@v0.0.0-20191030013958-a1ab85dbe136",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:A1gGSx58LAGVHUUsOf7IiR0u8Xb6W51gRwfDBhkdcaw="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/net@v0.0.0-20200301022130-244492dfa37a?package-id=861d0f1c98cedfc8",
+      "type": "library",
+      "name": "golang.org/x/net",
+      "version": "v0.0.0-20200301022130-244492dfa37a",
+      "cpe": "cpe:2.3:a:golang:x\\/net:v0.0.0-20200301022130-244492dfa37a:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/net@v0.0.0-20200301022130-244492dfa37a",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:GuSPYbZzB5/dcLNCwLQLsg3obCJtX9IJhpXkvY7kzk0="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/sys@v0.0.0-20200302150141-5c8b2ff67527?package-id=735078e5f86246b0",
+      "type": "library",
+      "name": "golang.org/x/sys",
+      "version": "v0.0.0-20200302150141-5c8b2ff67527",
+      "cpe": "cpe:2.3:a:golang:x\\/sys:v0.0.0-20200302150141-5c8b2ff67527:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/sys@v0.0.0-20200302150141-5c8b2ff67527",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:uYVVQ9WP/Ds2ROhcaGPeIdVq0RIXVLwsHlnvJ+cT1So="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/text@v0.3.6?package-id=08717222b39fbd54",
+      "type": "library",
+      "name": "golang.org/x/text",
+      "version": "v0.3.6",
+      "cpe": "cpe:2.3:a:golang:x\\/text:v0.3.6:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/text@v0.3.6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:aRYxNxv6iGQlyVaZmk6ZgYEDa+Jg18DxebPSrd6bg1M="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/gonum.org/v1/gonum@v0.7.0?package-id=9b38fa3d8d7e4329",
+      "type": "library",
+      "name": "gonum.org/v1/gonum",
+      "version": "v0.7.0",
+      "cpe": "cpe:2.3:a:v1:gonum:v0.7.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/gonum.org/v1/gonum@v0.7.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:Hdks0L0hgznZLG9nzXb8vZ0rRvqNvAcgAp84y7Mwkgw="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/gopkg.in/neurosnap/sentences.v1@v1.0.6?package-id=a35e8fc47f3bcc48",
+      "type": "library",
+      "name": "gopkg.in/neurosnap/sentences.v1",
+      "version": "v1.0.6",
+      "purl": "pkg:golang/gopkg.in/neurosnap/sentences.v1@v1.0.6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:v7ElyP020iEZQONyLld3fHILHWOPs+ntzuQTNPkul8E="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/gopkg.in/warnings.v0@v0.1.2?package-id=e924fe56aa559902",
+      "type": "library",
+      "name": "gopkg.in/warnings.v0",
+      "version": "v0.1.2",
+      "purl": "pkg:golang/gopkg.in/warnings.v0@v0.1.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:wFXVbFY8DY5/xOe1ECiWdKCzZlxgshcYVNkBHstARME="
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/spdx-sbom-generator@v0.0.10?package-id=d0a2de88739abf02",
+      "type": "library",
+      "name": "spdx-sbom-generator",
+      "version": "v0.0.10",
+      "purl": "pkg:golang/spdx-sbom-generator@v0.0.10",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:architecture", "value": "x86_64" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        { "name": "syft:metadata:mainModule", "value": "spdx-sbom-generator" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/stdlib@1.13.1?package-id=9d1e6fab90778ac1",
+      "type": "library",
+      "name": "stdlib",
+      "version": "go1.13.1",
+      "licenses": [{ "license": { "id": "BSD-3-Clause" } }],
+      "cpe": "cpe:2.3:a:golang:go:1.13.1:-:*:*:*:*:*:*",
+      "purl": "pkg:golang/stdlib@1.13.1",
+      "properties": [
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/spdx-sbom-generator" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.13.1" }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/stdlib@1.18.1?package-id=57ad8100ec4e1576",
+      "type": "library",
+      "name": "stdlib",
+      "version": "go1.18.1",
+      "licenses": [{ "license": { "id": "BSD-3-Clause" } }],
+      "cpe": "cpe:2.3:a:golang:go:1.18.1:-:*:*:*:*:*:*",
+      "purl": "pkg:golang/stdlib@1.18.1",
+      "properties": [
+        { "name": "syft:package:language", "value": "go" },
+        { "name": "syft:package:type", "value": "go-module" },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        { "name": "syft:location:0:path", "value": "/goProject" },
+        { "name": "syft:metadata:goCompiledVersion", "value": "go1.18.1" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:84881d69-a59f-4d68-bf3f-07ffad317ec2" version="1">
+  <metadata>
+    <timestamp>2024-05-15T14:15:22.258Z</timestamp>
+    <tools>
+        <tool>
+            <vendor>RetireJS</vendor>
+            <name>retire.js</name>
+            <version>5.0.0-beta.1</version>
+        </tool>
+    </tools>
+  </metadata>
+  <components>
+    <component type="library">
+      <name>lodash</name>
+      <version>4.17.21</version>
+          <hashes>
+            <hash alg="MD5">bbb588cc4360df5d317ebff5f5c1ac9c</hash>
+            <hash alg="SHA-1">03d60d1510d24a952ff370b77035b031a87c4158</hash>
+            <hash alg="SHA-256">4c04561befdf653aef017a42ac5addf68ea943cdfca6bdee5ce04e04e8139f54</hash>
+            <hash alg="SHA-512">da2c021e3ba3f8f99d0b2bdbf3cacc39c87451c290c551e2fe0b009a5d5f3777a0f3620368efdc773cde5d7e221765732087acee9383135fc6d2db37401c2c94</hash>
+          </hashes>
+      <purl>pkg:npm/lodash@4.17.21</purl>
+      <modified>false</modified>
+    </component>
+    <component type="library">
+      <name>moment.js</name>
+      <version>2.30.1</version>
+          <hashes>
+            <hash alg="MD5">57246fb66210c7189fe95ca299666959</hash>
+            <hash alg="SHA-1">0758ff4543cb1acaf53ed2a7b02fce2834656e71</hash>
+            <hash alg="SHA-256">7dc0a51c32dae143f2eade235145dfd6a7756388c0f0bf409fa373dd6c233629</hash>
+            <hash alg="SHA-512">dc2bab681bf2d399c881ca178d5377de600247223cf727551e0ef2fc730df7071355b1debabd12781cf079277faf1c926a93bb4e67eeebcf8994a90b4e70c536</hash>
+          </hashes>
+      <purl>pkg:npm/moment@2.30.1</purl>
+      <modified>false</modified>
+    </component>
+    <component type="library">
+      <name>axios</name>
+      <version>1.5.0</version>
+          <hashes>
+            <hash alg="MD5">a927481a15078a626ecb0681638241f8</hash>
+            <hash alg="SHA-1">d0b69acfccc2914a7a2899f6a837209f53824213</hash>
+            <hash alg="SHA-256">8b5fbe3d84addc96e2d308b69d228ca195ef41529e49c4c3c9094c6594d27117</hash>
+            <hash alg="SHA-512">905a0c79b25c3f175f0ecb63bb06db24ddeaee143a3ba9e90bd7b10e66d347b1d96540b9d2cec32a5fcc2528ae932480a2556b71599a2d11d39918f09c6085a3</hash>
+          </hashes>
+      <purl>pkg:npm/axios@1.5.0</purl>
+      <modified>false</modified>
+    </component>
+    <component type="library">
+      <name>handlebars</name>
+      <version>4.7.7</version>
+          <hashes>
+            <hash alg="MD5">495d3a8ba6990115b6a3d09d6021d400</hash>
+            <hash alg="SHA-1">97791d077c8ffe09de67cbd9bb94ea68bb8eacf2</hash>
+            <hash alg="SHA-256">a8026fcf96057976707bf380577d02780162d48c15c348bb26777732f3001c47</hash>
+            <hash alg="SHA-512">97cb9d4ba436c2d5e8d4da59017cb712c7317773a2e5defdbca1cfc8f139b1bb7b4d8640bfd0fc271b0b3f5774443ac0706e7ac0c05e41d02c44e8322b0d8daf</hash>
+          </hashes>
+      <purl>pkg:npm/handlebars@4.7.7</purl>
+      <modified>false</modified>
+    </component>
+    <component type="library">
+      <name>axios</name>
+      <version>1.4.0</version>
+          <hashes>
+            <hash alg="MD5">c337e4d3d3c8a857be345df26322ef07</hash>
+            <hash alg="SHA-1">f167a662cfd58be93289d1627d2c31438ffad46d</hash>
+            <hash alg="SHA-256">d1849584292a90a66b6fa787044419be060c1d1f2600293d3bcf3871d929286f</hash>
+            <hash alg="SHA-512">463bd211a783a8f09f51543d9276b6ff63aa1f3ffb174e083a5d7feba2e642307f94e780cf0abb2eb6d3cc36f3e5c27394f349e6ab5e36d1d1e7a5da2524cd5b</hash>
+          </hashes>
+      <purl>pkg:npm/axios@1.4.0</purl>
+      <modified>false</modified>
+    </component>
+    <component type="library">
+      <name>handlebars</name>
+      <version>4.7.8</version>
+          <hashes>
+            <hash alg="MD5">4c399539a797a88187513effdd4bfffd</hash>
+            <hash alg="SHA-1">7ff8ec316b31823f01c9bbae35196492f50aaf2f</hash>
+            <hash alg="SHA-256">aefd832ac5e6554c32bbb4bb16272f75645042864477aa8c0a8e45222492b042</hash>
+            <hash alg="SHA-512">2eff804643031c8fb6d4939961444ca69c885816149f2d8e449b37ee963de51bfd1d5075bbaea725ff91b67ea87ed91a62367ee60fc9f612261e2e952a33946b</hash>
+          </hashes>
+      <purl>pkg:npm/handlebars@4.7.8</purl>
+      <modified>false</modified>
+    </component>
+    <component type="library">
+      <name>react-dom</name>
+      <version>17.0.2</version>
+          <hashes>
+            <hash alg="MD5">4bdf2434358aba26962bc05a30e84d70</hash>
+            <hash alg="SHA-1">deb6446c1ef9c5689920c1e5447c97cca6ad7c36</hash>
+            <hash alg="SHA-256">bdc1a7f9ec9f4f81c9a0a372f37ac43a7f5a02841075e03dc4aa4c0e27a74e58</hash>
+            <hash alg="SHA-512">d026445b2d4f349ea577777e0c8e6406d60a6fec4c5da213d7799ae733329d27fb2aa60c37c6096f9d58b196da1d6d764848828a5c3101019127ef6eed3a0694</hash>
+          </hashes>
+      <purl>pkg:npm/react-dom@17.0.2</purl>
+      <modified>false</modified>
+    </component>
+    <component type="library">
+      <name>jquery</name>
+      <version>1.8.3</version>
+          <hashes>
+            <hash alg="MD5">1871bde71f917443d957936ab4925ee6</hash>
+            <hash alg="SHA-1">63f6fee253b72793318d1a3090a99efdec09bfb0</hash>
+            <hash alg="SHA-256">b6223c1e647e59da86a937c846f274c4bb55d3547fa59de070c1d9d444ca8d90</hash>
+            <hash alg="SHA-512">0fbe38636e1e33a1f6b76432ed7d975f16a4603daad99a63947f1a9a7764150a1781f96acfab584df54d64460fbbce1dc837237524669f902d1d15288375e029</hash>
+          </hashes>
+      <purl>pkg:npm/jquery@1.8.3</purl>
+      <modified>false</modified>
+    </component>
+    <component type="library">
+      <name>jquery</name>
+      <version>1.11.2</version>
+          <hashes>
+            <hash alg="MD5">6941d870e4b781f4a63a83b814110f34</hash>
+            <hash alg="SHA-1">d51ba619e54209ac5a5401d452dac43141ba6478</hash>
+            <hash alg="SHA-256">667eedae1808b6d386502c77f7e76892c6b330678f466d15707d4adde48fea26</hash>
+            <hash alg="SHA-512">82bb80b0e86674230920584e8a94c344aa11ba0a38ec75541a08e65c432ceef586bc036480c7257efb1a01c0a85be0dccc54089916378abad5baa9bd8c6ce88c</hash>
+          </hashes>
+      <purl>pkg:npm/jquery@1.11.2</purl>
+      <modified>false</modified>
+    </component>
+    <component type="library">
+      <name>bootstrap</name>
+      <version>4.6.2</version>
+          <hashes>
+            <hash alg="MD5">2a753de0369d13becc9649fc48f55535</hash>
+            <hash alg="SHA-1">e324063c8f46c6b29427df1542f1026ad230f604</hash>
+            <hash alg="SHA-256">423217abf8775cea2dc30fa1fe3e1c5e24dc359a80f1c37ad29a86094bfe81d1</hash>
+            <hash alg="SHA-512">eebbac93c9063c5ca7656bb6e8e29b4de23e40fa18721b71b263de06a9072045c9c5eba7e3227821261eec2eaccfdc1dc5e1351a4dd5c6c21680265373ebd7de</hash>
+          </hashes>
+      <purl>pkg:npm/bootstrap@4.6.2</purl>
+      <modified>false</modified>
+    </component>
+    <component type="library">
+      <name>jquery</name>
+      <version>3.6.1</version>
+          <hashes>
+            <hash alg="MD5">00727d1d5d9c90f7de826f1a4a9cc632</hash>
+            <hash alg="SHA-1">ea61688671d0c3044f2c5b2f2c4af0a6620ac6c2</hash>
+            <hash alg="SHA-256">a3cf00c109d907e543bc4f6dbc85eb31068f94515251347e9e57509b52ee3d74</hash>
+            <hash alg="SHA-512">69528a4518bf43f615fb89a3a0a06c138c771fe0647a0a0cfde9b8e8d3650aa3539946000e305b78d79f371615ee0894a74571202b6a76b6ea53b89569e64d5c</hash>
+          </hashes>
+      <purl>pkg:npm/jquery@3.6.1</purl>
+      <modified>false</modified>
+    </component>
+    <component type="library">
+      <name>jquery</name>
+      <version>1.4.3</version>
+          <hashes>
+            <hash alg="MD5">2e5c0bbe6054db97a4c62c10d0019aa9</hash>
+            <hash alg="SHA-1">e503d37d974d9d7c2788248e4f599f9248531e9c</hash>
+            <hash alg="SHA-256">1d369719ee39cd798d4b1e57b504bdc09608d63d6190c0847437600eb3c0b827</hash>
+            <hash alg="SHA-512">b588afabb7a0709f2d76c2ab71e4d114290950ade4450289ccbb19aa0b6f9a7dd5d2111c997a3443598b47232a9c2caec006484f15b8c34444a4f5b8fda9a2b8</hash>
+          </hashes>
+      <purl>pkg:npm/jquery@1.4.3</purl>
+      <modified>false</modified>
+    </component>
+    <component type="library">
+      <name>jquery</name>
+      <version>3.7.1</version>
+          <hashes>
+            <hash alg="MD5">12e87d2f3a4c8b347ab13a0764d420a3</hash>
+            <hash alg="SHA-1">4be715e11048c057fdf2ee0fbbfad4dbf3504c55</hash>
+            <hash alg="SHA-256">78a85aca2f0b110c29e0d2b137e09f0a1fb7a8e554b499f740d6744dc8962cfe</hash>
+            <hash alg="SHA-512">fa4d699e582de05d47f0beeddf3f79a37fca3bea3bf083447174db9e8250fc5d95a835615a86a256697f3841eff47b1583151a556f886e264f50941f17f63167</hash>
+          </hashes>
+      <purl>pkg:npm/jquery@3.7.1</purl>
+      <modified>false</modified>
+    </component>
+    <component type="library">
+      <name>select2</name>
+      <version>4.0.13</version>
+          <hashes>
+            <hash alg="MD5">c2afdeda30583c460d6db9778ba92cde</hash>
+            <hash alg="SHA-1">6245cdab59b33350a6833637df0941a3b2b5ab6f</hash>
+            <hash alg="SHA-256">ba0664111e4e0041b30b0c1bff832f841284e46be67344b9f4c2a7f9da2865a2</hash>
+            <hash alg="SHA-512">22b39d7607035e26df6ddef2e47e886e4bd638f353aed4af466b1c669a0b9346cdb8e65becb2efb23c669f3a2587ee7334ef6580f2a084f25b2c8149e5add561</hash>
+          </hashes>
+      <purl>pkg:npm/select2@4.0.13</purl>
+      <modified>false</modified>
+    </component>
+  </components>
+</bom>

@@ -1,0 +1,858 @@
+{
+  "files": [
+    {
+      "fileName": "./README.md",
+      "SPDXID": "SPDXRef-File--README.md-FCBA1365E7F5E1E48E4F2E843A9456969C1E2181",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6bb972882f01788311df8e23e01787ea1b992a6bdbbdbab7c72c1f6fb66c7ea0"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fcba1365e7f5e1e48e4f2e843a9456969c1e2181"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./out.json",
+      "SPDXID": "SPDXRef-File--out.json-DA39A3EE5E6B4B0D3255BFEF95601890AFD80709",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./bill.go",
+      "SPDXID": "SPDXRef-File--bill.go-B0E4D334C3FE429B1A7B9BEF8D049CA39DDF2A6E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d3f12f2fa806abad810a6e6c6d25dfa0fdeb82a9b2eb30f4024220393a847b87"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b0e4d334c3fe429b1a7b9bef8d049ca39ddf2a6e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./bom-go-mod.spdx",
+      "SPDXID": "SPDXRef-File--bom-go-mod.spdx-38AA02F6F817571C40466530995CDBB44F313ED1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "062801db63bde84a46d158db8a5d1e22190b329141783dcc14ae7987b5fed514"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "38aa02f6f817571c40466530995cdbb44f313ed1"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/packed-refs",
+      "SPDXID": "SPDXRef-File--.git-packed-refs-918FE9E1666AE564C0CB4EDD81E31DDDD378763C",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "436ed5bda217b3ee5125814eb196d14bc4b6759f19cb54c06eb22cf2bb36865f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "918fe9e1666ae564c0cb4edd81e31dddd378763c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/info/exclude",
+      "SPDXID": "SPDXRef-File--.git-info-exclude-C879DF015D97615050AFA7B9641E3352A1E701AC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c879df015d97615050afa7b9641e3352a1e701ac"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/logs/refs/heads/main",
+      "SPDXID": "SPDXRef-File--.git-logs-refs-heads-main-BC4B27E44ACDAAF5C83EAE4F838DED390C2F7D21",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "73ceba7a088cd64d651c17909554d30077e1ebb710c4861bf3203abc2dd96809"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bc4b27e44acdaaf5c83eae4f838ded390c2f7d21"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/pre-commit.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-pre-commit.sample-A79D057388EE2C2FE6561D7697F1F5EFCFF96F23",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f9af7d95eb1231ecf2eba9770fedfa8d4797a12b02d7240e98d568201251244a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a79d057388ee2c2fe6561d7697f1f5efcff96f23"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/fsmonitor-watchman.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-fsmonitor-watchman.sample-118FF5509F187039734D04456BF01E44C933AC19",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f3c0228d8e827f1c5260ac59fdd92c3d425c46e54711ef713c5a54ae0a4db2b4"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "118ff5509f187039734d04456bf01e44c933ac19"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/commit-msg.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-commit-msg.sample-EE1ED5AAD98A435F2020B6DE35C173B75D9AFFAC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ee1ed5aad98a435f2020b6de35c173b75d9affac"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./greet.go",
+      "SPDXID": "SPDXRef-File--greet.go-22FE4BCA893E2B815082E7D10ECDF9F9CD58259B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6a561e6260cb4ff9d99bce4ec9e9d1a04703a444638b7e53eceaf7593f01fee3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "22fe4bca893e2b815082e7d10ecdf9f9cd58259b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./go.sum",
+      "SPDXID": "SPDXRef-File--go.sum-89B9AD95118C496F444A7DA8190ECA85FB837D48",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c0cd9825dbb49ab9a7c65d1a09cb06eef6d31dc5fa1939db00292bf329ba6fc9"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "89b9ad95118c496f444a7da8190eca85fb837d48"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/config",
+      "SPDXID": "SPDXRef-File--.git-config-4CF5AB63E5CEB40197A181E3BEF25D06340D27B9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "34191a5d97a3937d4e5e4797590306512ec1a0632f73414477afd1160103273a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4cf5ab63e5ceb40197a181e3bef25d06340d27b9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/objects/pack/pack-635f8d4ed5262a7f054d29e83d0fb7f1e60d3a55.pack",
+      "SPDXID": "SPDXRef-File--.git-objects-pack-pack-635f8d4ed5262a7f054d29e83d0fb7f1e60d3a55.pack-00418A2359462FBECF2DCDAEA036A15EA63FA62A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "280783d2dd0d4ca50746aa0fa096b2f65cdfdf3161277174dd270704be89d21a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "00418a2359462fbecf2dcdaea036a15ea63fa62a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./menu.go",
+      "SPDXID": "SPDXRef-File--menu.go-4188857ADEEE40C4CCBF65ED73CCA93FF89DB2B7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2424ffa5373c3d55488ffd2e455ab64376711caaae27d2745f8af36fd5e46161"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4188857adeee40c4ccbf65ed73cca93ff89db2b7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/index",
+      "SPDXID": "SPDXRef-File--.git-index-5B265FEB3D004819C2CA0EF60BBC34A9E41BC448",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "028af7c3dfd63f10dc768a933d7534edec80185dc504624ec682619e89ca8e8a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5b265feb3d004819c2ca0ef60bbc34a9e41bc448"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/push-to-checkout.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-push-to-checkout.sample-508240328C8B55F8157C93C43BF5E291E5D2FBCB",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "508240328c8b55f8157c93c43bf5e291e5d2fbcb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/objects/pack/pack-635f8d4ed5262a7f054d29e83d0fb7f1e60d3a55.idx",
+      "SPDXID": "SPDXRef-File--.git-objects-pack-pack-635f8d4ed5262a7f054d29e83d0fb7f1e60d3a55.idx-1CBADD19669325E9CBC6E19C7D98EA34FB7964E0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ac95f093987c604646905e5ee5e091e187b703b8768593724abff6df739cfd6f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1cbadd19669325e9cbc6e19c7d98ea34fb7964e0"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./main.go",
+      "SPDXID": "SPDXRef-File--main.go-26BB6B1330844DC3C583C5794E856B76C73784D2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dcf9c7f060a4d6219e35c4976e073a74261007803a4b048314b195c0c7206c36"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "26bb6b1330844dc3c583c5794e856b76c73784d2"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/post-update.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-post-update.sample-B614C2F63DA7DCA9F1DB2E7ADE61EF30448FC96C",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b614c2f63da7dca9f1db2e7ade61ef30448fc96c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/description",
+      "SPDXID": "SPDXRef-File--.git-description-9635F1B7E12C045212819DD934D809EF07EFA2F4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9635f1b7e12c045212819dd934d809ef07efa2f4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/logs/refs/remotes/origin/HEAD",
+      "SPDXID": "SPDXRef-File--.git-logs-refs-remotes-origin-HEAD-BC4B27E44ACDAAF5C83EAE4F838DED390C2F7D21",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "73ceba7a088cd64d651c17909554d30077e1ebb710c4861bf3203abc2dd96809"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bc4b27e44acdaaf5c83eae4f838ded390c2f7d21"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/pre-push.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-pre-push.sample-A599B773B930CA83DBC3A5C7C13059AC4A6EAEDC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a599b773b930ca83dbc3a5c7c13059ac4a6eaedc"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/pre-receive.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-pre-receive.sample-705A17D259E7896F0082FE2E9F2C0C3B127BE5AC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "705a17d259e7896f0082fe2e9f2c0c3b127be5ac"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./spdx-sbom-generator",
+      "SPDXID": "SPDXRef-File--spdx-sbom-generator-06EAB7057999402DBDFE7F9D31B59BCA0BB63C71",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5e9ce48667c85197a6c09935f5a8673e23e113af90c88a4cbbda3f4ca5b6df1a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "06eab7057999402dbdfe7f9d31b59bca0bb63c71"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./goProject",
+      "SPDXID": "SPDXRef-File--goProject-02E017A1DE38B2CADFE0FFA6FC728045BC1D6596",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b154f8322de7de0610697cff205f3637bec50ac44634f6c3c9ae094d6fd2118d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "02e017a1de38b2cadfe0ffa6fc728045bc1d6596"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/refs/remotes/origin/HEAD",
+      "SPDXID": "SPDXRef-File--.git-refs-remotes-origin-HEAD-5AE7C22895C35AF5F56BA1891A4DD62B4DC1F955",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2bb6a24aa0fc6c484100f5d51a29bbad841cd2c755f5d93faa204e5dbb4eb2b4"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5ae7c22895c35af5f56ba1891a4dd62b4dc1f955"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/applypatch-msg.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-applypatch-msg.sample-4DE88EB95A5E93FD27E78B5FB3B5231A8D8917DD",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4de88eb95a5e93fd27e78b5fb3b5231a8d8917dd"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/prepare-commit-msg.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-prepare-commit-msg.sample-2584806BA147152AE005CB675AA4F01D5D068456",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2584806ba147152ae005cb675aa4f01d5d068456"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./modify.go",
+      "SPDXID": "SPDXRef-File--modify.go-3AD6FC347910726B2BD5E7452F51BC58F3236448",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "41254d24606bdaa9b8b47e087c04005de29d8aaa42b2da9f29caa645ba83b287"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3ad6fc347910726b2bd5e7452f51bc58f3236448"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/HEAD",
+      "SPDXID": "SPDXRef-File--.git-HEAD-9F1DF7EEA4156BE8A871C292B549B3325E425AA2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9f1df7eea4156be8a871c292b549b3325e425aa2"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/logs/HEAD",
+      "SPDXID": "SPDXRef-File--.git-logs-HEAD-BC4B27E44ACDAAF5C83EAE4F838DED390C2F7D21",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "73ceba7a088cd64d651c17909554d30077e1ebb710c4861bf3203abc2dd96809"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bc4b27e44acdaaf5c83eae4f838ded390c2f7d21"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/pre-merge-commit.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-pre-merge-commit.sample-04C64E58BC25C149482ED45DBD79E40EFFB89EB7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "04c64e58bc25c149482ed45dbd79e40effb89eb7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/pre-applypatch.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-pre-applypatch.sample-F208287C1A92525DE9F5462E905A9D31DE1E2D75",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f208287c1a92525de9f5462e905a9d31de1e2d75"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./go.mod",
+      "SPDXID": "SPDXRef-File--go.mod-867CF0A674FD3EEA5442E8E5D17C7C373D76D016",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "11daead56a94701b1fd8b0dc41818f09dfa81b0b12202493e92489377cd052e2"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "867cf0a674fd3eea5442e8e5d17c7c373d76d016"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./order.go",
+      "SPDXID": "SPDXRef-File--order.go-748E510E860731851E78C2D03BE0555723009B0F",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ddfaa7fb84771f70eb8979012731dae9b44341f195a3c272599ceeedeb409079"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "748e510e860731851e78c2d03be0555723009b0f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/refs/heads/main",
+      "SPDXID": "SPDXRef-File--.git-refs-heads-main-43A98787403F62E874924548F7B3FAD2C2E8E16B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6a29621c9ea4611e70c44e6aadd4730ea94f0b9d24f44d0df8f67548ad654983"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "43a98787403f62e874924548f7b3fad2c2e8e16b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/update.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-update.sample-730E6BD5225478BAB6147B7A62A6E2AE21D40507",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "730e6bd5225478bab6147b7a62a6e2ae21d40507"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/pre-rebase.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-pre-rebase.sample-288EFDC0027DB4CFD8B7C47C4AEDDBA09B6DED12",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "288efdc0027db4cfd8b7c47c4aeddba09b6ded12"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "packages": [
+    {
+      "name": "github.com/gorilla/mux",
+      "SPDXID": "SPDXRef-Package-12482B767B78296EC9EE6384DA83110E765DC39417454286667B6467BBA99A0A",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "v1.8.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/gorilla/mux@v1.8.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "ms-sbom-tool",
+      "SPDXID": "SPDXRef-RootPackage",
+      "downloadLocation": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "3ade519567002bf07f6b5d547267469bb1fe4196"
+      },
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/https%3A%2F%2Flearnsbom.com/spdx.org/ms-sbom-tool@1.0?tag_id=d695b98b-ced4-4f07-87db-413d359baef5"
+        }
+      ],
+      "supplier": "Organization: https://learnsbom.com",
+      "hasFiles": [
+        "SPDXRef-File--.git-hooks-prepare-commit-msg.sample-2584806BA147152AE005CB675AA4F01D5D068456",
+        "SPDXRef-File--.git-hooks-applypatch-msg.sample-4DE88EB95A5E93FD27E78B5FB3B5231A8D8917DD",
+        "SPDXRef-File--.git-refs-remotes-origin-HEAD-5AE7C22895C35AF5F56BA1891A4DD62B4DC1F955",
+        "SPDXRef-File--goProject-02E017A1DE38B2CADFE0FFA6FC728045BC1D6596",
+        "SPDXRef-File--spdx-sbom-generator-06EAB7057999402DBDFE7F9D31B59BCA0BB63C71",
+        "SPDXRef-File--.git-hooks-pre-applypatch.sample-F208287C1A92525DE9F5462E905A9D31DE1E2D75",
+        "SPDXRef-File--.git-hooks-pre-merge-commit.sample-04C64E58BC25C149482ED45DBD79E40EFFB89EB7",
+        "SPDXRef-File--.git-logs-HEAD-BC4B27E44ACDAAF5C83EAE4F838DED390C2F7D21",
+        "SPDXRef-File--.git-HEAD-9F1DF7EEA4156BE8A871C292B549B3325E425AA2",
+        "SPDXRef-File--modify.go-3AD6FC347910726B2BD5E7452F51BC58F3236448",
+        "SPDXRef-File--.git-hooks-pre-receive.sample-705A17D259E7896F0082FE2E9F2C0C3B127BE5AC",
+        "SPDXRef-File--.git-hooks-pre-push.sample-A599B773B930CA83DBC3A5C7C13059AC4A6EAEDC",
+        "SPDXRef-File--.git-logs-refs-remotes-origin-HEAD-BC4B27E44ACDAAF5C83EAE4F838DED390C2F7D21",
+        "SPDXRef-File--.git-description-9635F1B7E12C045212819DD934D809EF07EFA2F4",
+        "SPDXRef-File--main.go-26BB6B1330844DC3C583C5794E856B76C73784D2",
+        "SPDXRef-File--.git-hooks-pre-rebase.sample-288EFDC0027DB4CFD8B7C47C4AEDDBA09B6DED12",
+        "SPDXRef-File--.git-hooks-update.sample-730E6BD5225478BAB6147B7A62A6E2AE21D40507",
+        "SPDXRef-File--.git-refs-heads-main-43A98787403F62E874924548F7B3FAD2C2E8E16B",
+        "SPDXRef-File--order.go-748E510E860731851E78C2D03BE0555723009B0F",
+        "SPDXRef-File--go.mod-867CF0A674FD3EEA5442E8E5D17C7C373D76D016",
+        "SPDXRef-File--.git-hooks-post-update.sample-B614C2F63DA7DCA9F1DB2E7ADE61EF30448FC96C",
+        "SPDXRef-File--.git-objects-pack-pack-635f8d4ed5262a7f054d29e83d0fb7f1e60d3a55.idx-1CBADD19669325E9CBC6E19C7D98EA34FB7964E0",
+        "SPDXRef-File--.git-index-5B265FEB3D004819C2CA0EF60BBC34A9E41BC448",
+        "SPDXRef-File--menu.go-4188857ADEEE40C4CCBF65ED73CCA93FF89DB2B7",
+        "SPDXRef-File--go.sum-89B9AD95118C496F444A7DA8190ECA85FB837D48",
+        "SPDXRef-File--.git-hooks-fsmonitor-watchman.sample-118FF5509F187039734D04456BF01E44C933AC19",
+        "SPDXRef-File--.git-hooks-pre-commit.sample-A79D057388EE2C2FE6561D7697F1F5EFCFF96F23",
+        "SPDXRef-File--.git-info-exclude-C879DF015D97615050AFA7B9641E3352A1E701AC",
+        "SPDXRef-File--bill.go-B0E4D334C3FE429B1A7B9BEF8D049CA39DDF2A6E",
+        "SPDXRef-File--out.json-DA39A3EE5E6B4B0D3255BFEF95601890AFD80709",
+        "SPDXRef-File--.git-hooks-commit-msg.sample-EE1ED5AAD98A435F2020B6DE35C173B75D9AFFAC",
+        "SPDXRef-File--.git-logs-refs-heads-main-BC4B27E44ACDAAF5C83EAE4F838DED390C2F7D21",
+        "SPDXRef-File--.git-packed-refs-918FE9E1666AE564C0CB4EDD81E31DDDD378763C",
+        "SPDXRef-File--README.md-FCBA1365E7F5E1E48E4F2E843A9456969C1E2181",
+        "SPDXRef-File--.git-hooks-push-to-checkout.sample-508240328C8B55F8157C93C43BF5E291E5D2FBCB",
+        "SPDXRef-File--.git-objects-pack-pack-635f8d4ed5262a7f054d29e83d0fb7f1e60d3a55.pack-00418A2359462FBECF2DCDAEA036A15EA63FA62A",
+        "SPDXRef-File--.git-config-4CF5AB63E5CEB40197A181E3BEF25D06340D27B9",
+        "SPDXRef-File--greet.go-22FE4BCA893E2B815082E7D10ECDF9F9CD58259B",
+        "SPDXRef-File--bom-go-mod.spdx-38AA02F6F817571C40466530995CDBB44F313ED1"
+      ]
+    }
+  ],
+  "externalDocumentRefs": [],
+  "relationships": [
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-12482B767B78296EC9EE6384DA83110E765DC39417454286667B6467BBA99A0A",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "ms-sbom-tool 1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-2.2.3-5934c6c8-98bd-49f0-99e0-d8edabea1c78/ms-sbom-tool/1.0/6iS0gNJYjEaIejZfsIElLg",
+  "creationInfo": {
+    "created": "2024-07-05T04:13:54Z",
+    "creators": [
+      "Organization: https://learnsbom.com",
+      "Tool: Microsoft.SBOMTool-2.2.3"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RootPackage"
+  ]
+}
