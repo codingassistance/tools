@@ -1,0 +1,26 @@
+SYFT
+syft <project_name>
+syft <docker_image>:latest
+syft <project_name> -o syft-json
+                    -o syft-text
+                    -o cyclonedx-json
+                    -o spdx-tag-value
+                    -o spdx-json
+                    -o syft-table
+TERN
+tern report -i <doker_image>
+tern report -f json -i <doker_image>
+            -f yaml
+            -f html
+            -f spdxtagvalue
+            -f spdxjson
+            -f cyclonedxjson
+MS SBOM
+sbom generate -b <drop_path> -bc <build_component> -pn ms-sbom-tool -pv <version> -ps <name_space>
+
+SPDX SBOM GENERATOR
+cd <folder>
+./spdx-sbom-generator
+
+CYCLONEDX SBOM GENERATOR
+cdxgen <project_name>
