@@ -24,3 +24,6 @@ cd <folder>
 
 CYCLONEDX SBOM GENERATOR
 cdxgen <project_name>
+
+RETIRE JS
+retire --path <path_name> --outputformat cyclonedx
