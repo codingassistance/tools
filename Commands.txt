@@ -16,7 +16,7 @@ tern report -f json -i <doker_image>
             -f spdxjson
             -f cyclonedxjson
 MS SBOM
-sbom generate -b <drop_path> -bc <build_component> -pn ms-sbom-tool -pv <version> -ps <name_space>
+sbom-tool generate -b <drop_path> -bc <build_component> -pn ms-sbom-tool -pv <version> -ps <name_space>
 
 SPDX SBOM GENERATOR
 cd <folder>
